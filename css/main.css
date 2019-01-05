@@ -166,6 +166,10 @@ main {
     height: 250px;
     border-radius: 50%;
     border: #81a6f8 3px solid; }
+  .about-info .text-job img {
+    width: 100%; }
+  .about-info .text-job h3 {
+    font-size: 1.5rem; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
