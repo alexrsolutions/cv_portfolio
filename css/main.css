@@ -106,7 +106,7 @@ body {
   body#bg-img {
     background: url(../img/background.jpeg);
     background-attachment: fixed;
-    background-position: cover; }
+    background-size: cover; }
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -168,8 +168,14 @@ main {
     border: #81a6f8 3px solid; }
   .about-info .text-job img {
     width: 100%; }
-  .about-info .text-job h3 {
-    font-size: 1.5rem; }
+  .about-info .text-job h5 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto; }
+  .about-info .text-job h6 {
+    text-align: center;
+    font-size: .75rem;
+    margin-top: .5rem; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -179,6 +185,8 @@ main {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
+  .about-info .job-4 {
+    grid-area: job4; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
@@ -277,7 +285,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3' 'job4';
     grid-template-columns: 1fr; }
     .about-info .bio {
       font-size: 1.19rem; }
