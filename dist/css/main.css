@@ -320,6 +320,8 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  .menu .nav-link {
+    font-size: 25px; }
   .menu-desktop {
     display: none !important; }
   .projects {
