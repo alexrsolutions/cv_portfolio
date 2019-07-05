@@ -42,8 +42,7 @@
 
     ul.menu-nav,
     div.menu-branding{
-        float: none;
-        width: 100%;
+        float: right;
         min-height: 0;
 
         &.show{
@@ -56,8 +55,7 @@
     }
 
     .menu-nav{
-        height: 75vh;
-        transform: translate3d(-100%,0,0);
+        transform: translate3d(100%,0,0);
         font-size: 24px;
     }
 
