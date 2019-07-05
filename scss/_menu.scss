@@ -37,6 +37,37 @@
     }
 }
 
+//Menu Desktop
+.menu-desktop{
+    overflow: hidden;
+    padding: 20px 10px;
+    background: rgba($primary-color, 0.4);
+
+    a{
+        float: left;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+        transition: 0.3s;
+        
+        &.active{
+            color: $secondary-color;
+        }
+    }
+
+    a:hover{
+        color: $secondary-color;
+    }
+
+    .header-right{
+        float: right;
+    }
+}
+
 //Menu Overlay
 .menu{
     position: fixed;
